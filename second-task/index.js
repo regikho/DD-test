@@ -1,3 +1,20 @@
+const result = document.querySelector('#result');
+const input = document.querySelector('#input');
+
+function handleGetDate() {
+    const [day, month, year] = input.value.split('.');
+
+    if (!day || !month || !year) {
+        result.innerText = 'Неверно введены данные'
+    } else {
+        if (day > 0 && day <= 31 && month > 0 && month <= 12) {
+            result.innerText = 'Результат: ' + getDayInfo(input.value);
+        } else {
+            result.innerText = 'Неверно введены данные'
+        }
+    } 
+}
+
 function getDayInfo(date) {
     date = new Date(date.split('.').reverse().join('.'));
 
