@@ -2,8 +2,9 @@
 
 ## Single Page Application (SPA) об HTML 
 
-можно увидеть [здесь](https://regikho.github.io/DD-test/first-task/)
+Можно увидеть [здесь](https://regikho.github.io/DD-test/first-task/)
 
+Все обязательные и дополнительные требования выполнены.
 Адаптивный дизайн для различных разрешений: ПК и смартфоны.
 
 Дизайн для ПК
@@ -15,3 +16,5 @@
 ![screenshot](https://github.com/regikho/regikho.github.io/blob/main/DD-test/phone-version.PNG?raw=true)
 
 ## Функция
+
+Функцию также можно написать с использованием метода .toLocaleDateString(), изменив строку и добавив туда недостающие данные.
