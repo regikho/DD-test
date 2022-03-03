@@ -12,5 +12,3 @@
 ![screenshot](https://github.com/regikho/regikho.github.io/blob/main/DD-test/phone-version.PNG?raw=true)
 
 ## Функция
-
-Для решения задачи также можно использовать другой метод, а именно: 
